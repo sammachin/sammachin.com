@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Sam Machin | OpenMIC - Mobile Data Charging </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Product Manager, Hacker, Geek">
+    
+    <link rel="stylesheet" href="https://sammachin.com/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://sammachin.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sammachin.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://sammachin.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://sammachin.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://sammachin.com/blog/openmic-mobile-data-charging/">
+    
+    
+    <script type="text/javascript" src="https://sammachin.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OpenMIC - Mobile Data Charging"/>
+<meta name="twitter:description" content="We had a very interesting discussion at OpenMIC 2 today, I put the topic up as &ldquo;Lets Design the Perfect Mobile Data Charging Model&rdquo; quite a daunting task but I thought it might attract attention"/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://sammachin.com/images/profile.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Sam Machin</a></h3>
+        <div class="description">
+          <p>Product Manager, Hacker, Geek</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/sammachin/" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/sammachin" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/sammachin" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Sam Machin 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/posts/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/projects/" title="">Projects</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>OpenMIC - Mobile Data Charging
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Thu, Jul 2, 2009</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">4-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>We had a very interesting discussion at <a href="http://openmicamp.ning.com">OpenMIC</a> 2 today, I put the topic up as &ldquo;Lets Design the Perfect Mobile Data Charging Model&rdquo; quite a daunting task but I thought it might attract attention</p>
+<!-- raw HTML omitted -->
+<p>We had a good mix of people, I&rsquo;m sorry I didn&rsquo;t get everybody&rsquo;s name but feel free to post in the comments or drop me a line, those I&rsquo;ve got so far are <a href="http://twitter.com/laurakalbag">@laurakalbag</a> <a href="http://twitter.com/juliancheal">@juliancheal</a> <a href="http://twitter.com/dominictravers">@dominictravers</a></p>
+<p>Data charging is always a point of contention within the mobile community and I wanted to try and get people to think about it from a view different viewpoints, namely what does the typical customer want, what does the 3rd Party Application/Service provider want and what does the Operator want. Often this is difficult at Barcamps as most of the attendees fall into the category of tech savvy customer, however I think we managed to get some good points and hopefully everyone saw something they hadn&rsquo;t thought of.</p>
+<p>Laura did a great job of capturing the thoughts in a mindmap (which is my favorite way of taking notes, it works well with the random ordering of my brain) I&rsquo;ve tried to re-create those here.</p>
+<p><a href="http://mogotion.com/wp-content/uploads/users.png"><img src="http://mogotion.com/wp-content/uploads/users.png" alt="">
+</a></p>
+<p><a href="http://mogotion.com/wp-content/uploads/developers.png"><img src="http://mogotion.com/wp-content/uploads/developers.png" alt="">
+</a><a href="http://mogotion.com/wp-content/uploads/operators.png"><img src="http://mogotion.com/wp-content/uploads/operators.png" alt="">
+</a></p>
+<p>We didn&rsquo;t really come up with the perfect model, however Julian made an interesting comment about how he would like to pay a single lower fee to have internet access via his mobile, a dongle and his home connection. This would help to even out the load on operators networks as some of the core infrastructure can be shared.</p>
+<p>I did put forward a proposal for a charging model which I have been thinking about for a while, its based around a set of 9 tier points, all customers get &lsquo;unlimited&rsquo; access, however there is a Fair Use Policy</p>
+<p>Now  Fair Use Policies are a whole discussion in there own right, however my model is that fair use cannot be a fixed vale its relative, for example:</p>
+<p>5 users, Bob, Alice, Steve, Kate &amp; Fred. now lets say that they all pay £10 per month for their unlimited service. Bob uses 10Gb of data in a month, is this fair use? Well to me it might be, however in this scenario lets say the other 4 users have each used between 100-200mb in a month. Now we have something to compare against we can see that Bob&rsquo;s usage is far more than anyone else and its probably not fair that he gets that much more without paying for it. Now imagine that in another situation Bob still uses 10Gb but this time the other users all use 7-8Gb each. At this point Bob&rsquo;s usage seems fairer. So for me the Fair Use limit is some multiple of the average user, I don&rsquo;t think this multiple can be set in stone but it should be openly made known. All users would be compared to the average of all other users on that price point, this allows you to have a class of light user and a class of heavy user, both with &lsquo;unlimited&rsquo; access but paying a different amount and getting a Fair Service!</p>
+<p>This type of tier forms the 1st part of my charging model, I think you need 3 levels of user, lets just call them small, medium &amp; heavy for now.</p>
+<p>Now the second factor that determines how much a user pays is the device they are using, Its well known that smart-phones generate more data traffic that &lsquo;regular&rsquo; voice centric phones and that laptop users generate more than this again. Therefore my model puts each device into one of three tiers, basically they consist of standard phones which typically have a number keypad, no touch screen and a fairly simple operating system. Advanced phones which are devices that run smartphone os&rsquo;s, have a qwerty keypad or a touchscreen or are very media centric. and finally laptops, this category is for users with dongles, built in data cards or those that want to tether their phones, (Tether users would pay the laptop rate but get handset usage included)</p>
+<p>Finally this model could offer, day week or month access so you could buy a days heavy laptop usage or subscribe to a monthly medium smartphone plan.</p>
+<p>I&rsquo;ve tried to visualize this in the table below, the prices and names are purely an example and I haven&rsquo;t based these on any commercial analysis!</p>
+<p><a href="http://mogotion.com/wp-content/uploads/charging001.png"><img src="http://mogotion.com/wp-content/uploads/charging001-300x225.png" alt="">
+</a></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/blog/">Blog</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/charging/">charging</a><a class="tag" href="/tags/mobile-data/">mobile data</a><a class="tag" href="/tags/openmic/">openmic</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://sammachin.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://sammachin.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://sammachin.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

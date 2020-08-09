@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T-Mobile on Sam Machin</title>
+    <link>https://sammachin.com/tags/t-mobile/</link>
+    <description>Recent content in T-Mobile on Sam Machin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Nov 2008 23:16:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://sammachin.com/tags/t-mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>T-Mobile G1 vs. iPhone - Round One to iPhone</title>
+      <link>https://sammachin.com/blog/t-mobile-g1-vs-iphone-round-one-to-iphone/</link>
+      <pubDate>Sat, 01 Nov 2008 23:16:19 +0000</pubDate>
+      
+      <guid>https://sammachin.com/blog/t-mobile-g1-vs-iphone-round-one-to-iphone/</guid>
+      <description>So the G1 is out, I&amp;rsquo;ve had a chance to play with one in a T-Mobile store and it seems like a nice OS, however it doesn&amp;rsquo;t look like an iPhone killer yet.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+---
+author: sammachin
+date: 2007-08-16 20:47:42+00:00
+draft: false
+title: My Web 2.0 Life
+type: post
+url: /blog/my-web-20-life/
+categories:
+- Blog
+tags:
+- web apps
+---
+
+I’ve been thinking about my whole web2.0 life for a few weeks now and the multitude of different platforms out there. Some of you know me well enough to know that I’m not a fan of systems that don’t interoperate! SMS only really took off once you could text across networks and its often one of the biggest barriers to success for a service (Yes kids there was a time when you could only send texts to people on the same network - ask your parents!)
+
+Anyway just as we have a very split IM world and people end up with several apps open to stay in touch with people across various service so the same is happening with Web2.0 sites. Many sites allow you to update your status during the day but I find myself having to post to twitter, facebook my blog and jaiku with basically the same thing.
+
+What I’m thinking of doing is building something to keep all of these in sync, you update one point and it pushes it out to all your services, sort of a GAIM for Web2.0.
+
+The question is how to do this? The obvious way seems to be to use one service as a master and have all the others pushed from there. The obvious one seems to be twitter, its got a multitude of ways to update your ’status’ and seems to be one of the most widespread, also its pretty simple and lightweight so if you don’t have a twitter account signing up for one is no biggie. However twitter has one gap in their API, you can have your status pushed out to a call on another service in some http manner. The only way for twitter to push out to an application is using IM, so I would have to run an IM server to receive the updates form twitter and post them to the other services. The other method would be to poll the twitter status’s and update accordingly but that doesn’t scale.
+
+Please post your thoughts on this and how you’d use it, also need to find the business model here, bandwidth aint free!

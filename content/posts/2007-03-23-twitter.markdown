@@ -1,0 +1,28 @@
+---
+author: sammachin
+date: 2007-03-23 20:46:43+00:00
+draft: false
+title: Twitter
+type: post
+url: /uncategorized/twitter/
+tags:
+- business model
+- radar
+- Twitter
+---
+
+So What is twitter? Its really hard to say as I don’t think it falls into any obviuos catagory, its a great example of a new format for information thats simple and flexlible that will push tech forward. It depends on what its gonna be used for but its kinda a hybrid of instant messaging, blogging & rss with a community angle on it too. They’ve kept it really simple asnd jsut bulit a communications system then put it out for people to use and develop.
+
+Its got what I think is key to any new web service: API’s without this any app is doomed to fail as in time people will want to use your service their way. Twitter seems to have hit the right spot here. I havn’t delved into the API yet but some of the mashups I’ve seen seem really useful. I’ve got the BBC news and this has been pushing headlines to my phone all day.
+
+What I’ve guessing is the original concept of twitter is cool too, I can add people I enjoy on podcasts to my group and get updates during the day about what they’re doing. It really adds to the sense of personalisation & community in podcsting. It actually seems like I’m getting texts from Leo Laporte and Cali Lewis about how their days going (kinda sad & fan like)
+
+I wonder how long before some mainstream celebrity gets a twitter account and posts updates on their day? Or rather before they have some peon at their record company invents a ficticous life for them, Can just imagine the sort of thing you’d see if I was getting updates on Paris Hiltons day ![:-)](http://www.geektech.co.uk/blog/wordpress/wp-includes/images/smilies/icon_smile.gif)
+
+
+So wheres twitter going? Well I don’t think anyone really knows, I’m not quite sure what their business model is. The SMS in the UK come from a longdial number so they sure aint making any money on those and that will cost per message. The site doesn’t seem to have any ads and I dont see a premium option. I guess they could offer a paid service but I’m not sure who to charge. You could limit the number of ‘feed’ a user can subscribe which might work well but I’m sure we’d just start to see a hiarchy of feeds to merge your popular stuff. Charging the popular people would work for the celebrity blog scenario so the more popular you are the more you pay but this might kill the power of blogging in that anybody who makes good points can get big. On the plus side they’ve already got an SMS interface so it should be fairly easy to start billing the users, I’d quite happily pay a couple of dollars a month for this but please dont make the mistake of charging the users to recieve on a per message basis. This really ruins the experience as you feel bad every time to recieve a message so instead of jsut ignoring the uninteresting updates you get annoyed thinking I’ve jsut paid for that!
+
+I’m guessing that the eventual outcome is that someone will buy twitter but who? The easy money would be on google. Twitter is already using jabber so its driving usage of Google Talk, hook it into blogger & google reader and theres some sweet 2.0 synergy (Buzz word alert) I suppose theres the chance that one of the telco’s might pick it up as theres a nice new SMS/IM convergance use case there (more buzz words) but I doubt it will be out there long enogh for any of the mobile operators to notice. If it really kicks off I guess they’ll build their own closed watered down services in good time:-)
+
+Still I’m gonna start twittering and use it while its good but somethings gotta change one day its too good to last ![:-)](http://www.geektech.co.uk/blog/wordpress/wp-includes/images/smilies/icon_smile.gif)
+

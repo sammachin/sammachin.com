@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Sam Machin</title>
+    <link>https://sammachin.com/tags/android/</link>
+    <description>Recent content in Android on Sam Machin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Feb 2011 10:56:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://sammachin.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android, Buyer Currency Support C-</title>
+      <link>https://sammachin.com/blog/android-buyer-currency-support-c/</link>
+      <pubDate>Thu, 03 Feb 2011 10:56:22 +0000</pubDate>
+      
+      <guid>https://sammachin.com/blog/android-buyer-currency-support-c/</guid>
+      <description>One of the new features announced by Google yesterday was support for &amp;ldquo;Buyer Currency&amp;rdquo; now this may come as something of a shock to iPhone users but chargeable apps in the Android Market have been billed in the developers currency since launch!</description>
+    </item>
+    
+    <item>
+      <title>T-Mobile G1 vs. iPhone - Round One to iPhone</title>
+      <link>https://sammachin.com/blog/t-mobile-g1-vs-iphone-round-one-to-iphone/</link>
+      <pubDate>Sat, 01 Nov 2008 23:16:19 +0000</pubDate>
+      
+      <guid>https://sammachin.com/blog/t-mobile-g1-vs-iphone-round-one-to-iphone/</guid>
+      <description>So the G1 is out, I&amp;rsquo;ve had a chance to play with one in a T-Mobile store and it seems like a nice OS, however it doesn&amp;rsquo;t look like an iPhone killer yet.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Sam Machin | Echo Show Security Camera with a Pi </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Product Manager, Hacker, Geek">
+    
+    <link rel="stylesheet" href="https://sammachin.com/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://sammachin.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sammachin.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://sammachin.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://sammachin.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://sammachin.com/blog/build-your-own-rasp-pi-security-camera-for-the-echo-show/">
+    
+    
+    <script type="text/javascript" src="https://sammachin.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Echo Show Security Camera with a Pi"/>
+<meta name="twitter:description" content="The Echo Show is the first Alexa enabled device from Amazon with a screen, with this device Amazon introduced some new capabilities within the Sklls SDK particularly around video, one of these is the ability to view home security cameras such as the Nest and the Ring Doorbell using the command &ldquo;Alexa show X camera&rdquo;"/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://sammachin.com/images/profile.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Sam Machin</a></h3>
+        <div class="description">
+          <p>Product Manager, Hacker, Geek</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/sammachin/" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/sammachin" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/sammachin" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Sam Machin 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/posts/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/projects/" title="">Projects</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Echo Show Security Camera with a Pi
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Mon, Aug 7, 2017</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
+        </div>
+        
+        </div>
+
+    <p><img src="http://sammachin.com/wp-content/uploads/2017/08/FullSizeRender-2-290x300.jpg" alt=""></p>
+<p>The Echo Show is the first Alexa enabled device from Amazon with a screen, with this device Amazon introduced some new capabilities within the Sklls SDK particularly around video, one of these is the ability to view home security cameras such as the Nest and the Ring Doorbell using the command &ldquo;Alexa show X camera&rdquo;</p>
+<p>However these devices are all at the pricy end of the home camera market, I do like having a few cameras around the house mainly so I can checkup on what chaos the dogs are causing downstairs when I&rsquo;m working up in my office. However fitting out my house with enough Nest cams to cover most o the areas would be running close to £1000.</p>
+<p>I&rsquo;ve used the cheaper Motorola Scout camera before and that worked pretty well, it can be picked up for about £50, but then I got thinking about the Raspberry Pi, specifically the Pi Zero W that was released a few months back, we now have a very cheap very small device that has Wifi and an interface to add an internal camera, you therefore have all the hardware you need to create a compact security camera.</p>
+<p>There are plenty of articles around the web on how to setup a Pi as your own home security camera however the Echo Show has some fairly particular requirements around the format of the video steam, especially the transport layer, it requires RTSP over Interleaved TCP connection on port 443 secured with a TLS cert! Don&rsquo;t worry if this all sounds a bit scary I&rsquo;ve done the hard work digging into this so you don&rsquo;t have to.</p>
+<p>Right now this is quite a complicated process with many steps covering lots of different areas so its only really  suitable for the more advanced hacker, I&rsquo;m hoping to simplify several steps into a single script in the future, Pull Requests are welcome.</p>
+<p>Checkout the video below and if you want to build your own then the instructions and code are all on <a href="https://github.com/sammachin/camerapi">GitHub</a></p>
+<!-- raw HTML omitted -->
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/blog/">Blog</a></span>
+
+        
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://sammachin.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://sammachin.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://sammachin.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

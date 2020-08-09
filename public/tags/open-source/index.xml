@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Sam Machin</title>
+    <link>https://sammachin.com/tags/open-source/</link>
+    <description>Recent content in open source on Sam Machin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 22:27:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://sammachin.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AlexaPi - Its come a long way</title>
+      <link>https://sammachin.com/blog/alexapi-its-come-a-long-way/</link>
+      <pubDate>Wed, 01 Mar 2017 22:27:20 +0000</pubDate>
+      
+      <guid>https://sammachin.com/blog/alexapi-its-come-a-long-way/</guid>
+      <description>Its over a year now since I released the first version of my AlexaPi code that turned a Raspberry Pi into your own Amazon Echo like device via the Alexa Voice Service API.</description>
+    </item>
+    
+  </channel>
+</rss>
