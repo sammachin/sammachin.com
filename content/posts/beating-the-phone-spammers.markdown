@@ -4,7 +4,7 @@ date: 2014-07-14 14:21:51+00:00
 draft: false
 title: Beating the Phone Spammers
 type: page
-url: /hacks-and-projects/beating-the-phone-spammers/
+url: /beating-the-phone-spammers/
 ---
 
 

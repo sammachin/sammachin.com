@@ -3,8 +3,8 @@ author: sammachin
 date: 2015-05-05 13:25:04+00:00
 draft: false
 title: Beacon Calling - TAD Hack London 2015
-type: page
-url: /hacks-and-projects/beacon-calling-tad-hack-london-2015/
+type: post
+url: /beacon-calling-tad-hack-london-2015/
 ---
 
 I attended my first TAD Hack event back in April, TAD Hack is a hackday aimed at telecom application developers, so in general its going to be people that like playing with things like SIP and WebRTC, possibly dabbling in a little light SMS!

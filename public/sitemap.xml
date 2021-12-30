@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.sammachin.com/tags/alexa/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/posts/alexaweb-reborn/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/tags/avs/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/tags/node-red/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/posts/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/tags/</loc>
+    <lastmod>2021-12-30T11:50:43+00:00</lastmod>
+  </url><url>
     <loc>https://www.sammachin.com/about/</loc>
     <lastmod>2021-12-30T10:30:22+00:00</lastmod>
   </url><url>
@@ -12,12 +33,6 @@
     <lastmod>2017-08-07T11:58:56+00:00</lastmod>
   </url><url>
     <loc>https://www.sammachin.com/blog/build-your-own-rasp-pi-security-camera-for-the-echo-show/</loc>
-    <lastmod>2017-08-07T11:58:56+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sammachin.com/posts/</loc>
-    <lastmod>2017-08-07T11:58:56+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sammachin.com/</loc>
     <lastmod>2017-08-07T11:58:56+00:00</lastmod>
   </url><url>
     <loc>https://www.sammachin.com/tags/alexapi/</loc>
@@ -35,8 +50,20 @@
     <loc>https://www.sammachin.com/tags/raspberrypi/</loc>
     <lastmod>2017-03-01T22:27:20+00:00</lastmod>
   </url><url>
-    <loc>https://www.sammachin.com/tags/</loc>
-    <lastmod>2017-03-01T22:27:20+00:00</lastmod>
+    <loc>https://www.sammachin.com/the-10-echo/</loc>
+    <lastmod>2016-01-03T16:05:30+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/posts/alexa-in-the-browser/</loc>
+    <lastmod>2015-12-17T12:06:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/hacks-and-projects/call-alexa/</loc>
+    <lastmod>2015-12-16T18:35:52+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/sms-lists-via-google-docs-twilio/</loc>
+    <lastmod>2015-05-05T20:10:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/hacks-and-projects/beacon-calling-tad-hack-london-2015/</loc>
+    <lastmod>2015-05-05T13:25:04+00:00</lastmod>
   </url><url>
     <loc>https://www.sammachin.com/blog/train-ticket-machines-what-about-the-power-users/</loc>
     <lastmod>2015-01-01T14:08:06+00:00</lastmod>
@@ -47,6 +74,9 @@
     <loc>https://www.sammachin.com/blog/the-apple-sim-its-a-bad-thing/</loc>
     <lastmod>2014-10-17T09:52:06+00:00</lastmod>
   </url><url>
+    <loc>https://www.sammachin.com/indie-talk/</loc>
+    <lastmod>2014-09-12T12:37:05+00:00</lastmod>
+  </url><url>
     <loc>https://www.sammachin.com/blog/a-platform-based-bank-account/</loc>
     <lastmod>2014-08-26T10:58:10+00:00</lastmod>
   </url><url>
@@ -56,11 +86,23 @@
     <loc>https://www.sammachin.com/blog/three-intouch/</loc>
     <lastmod>2014-07-30T15:48:34+00:00</lastmod>
   </url><url>
+    <loc>https://www.sammachin.com/hacks-and-projects/faking-ibeacons/</loc>
+    <lastmod>2014-07-14T17:04:09+00:00</lastmod>
+  </url><url>
     <loc>https://www.sammachin.com/blog/new-site-old-blog-posts/</loc>
     <lastmod>2014-07-14T16:14:55+00:00</lastmod>
   </url><url>
-    <loc>https://www.sammachin.com/projects/</loc>
-    <lastmod>2014-07-13T20:54:41+00:00</lastmod>
+    <loc>https://www.sammachin.com/hacks-and-projects/beating-the-phone-spammers/</loc>
+    <lastmod>2014-07-14T14:21:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/posts/tracking-data-usage/</loc>
+    <lastmod>2014-07-14T13:11:58+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/hacks-and-projects/distance-matrix/</loc>
+    <lastmod>2014-07-13T21:51:29+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sammachin.com/hacks-and-projects/twilio-to-sonos-via-heroku-pusher-and-a-pi/</loc>
+    <lastmod>2014-07-13T21:18:25+00:00</lastmod>
   </url><url>
     <loc>https://www.sammachin.com/</loc>
     <lastmod>2014-07-13T14:27:25+00:00</lastmod>

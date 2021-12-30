@@ -6,7 +6,16 @@
     <description>Recent content on Sam Machin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Aug 2017 11:58:56 +0000</lastBuildDate><atom:link href="https://www.sammachin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 11:50:43 +0000</lastBuildDate><atom:link href="https://www.sammachin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AlexaWeb Reborn</title>
+      <link>https://www.sammachin.com/posts/alexaweb-reborn/</link>
+      <pubDate>Thu, 30 Dec 2021 11:50:43 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/posts/alexaweb-reborn/</guid>
+      <description>6 Years ago almost to the day I published one of my first Alexa hacks, Alex In The Browser, this</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://www.sammachin.com/about/</link>
@@ -32,6 +41,51 @@
       
       <guid>https://www.sammachin.com/blog/alexapi-its-come-a-long-way/</guid>
       <description>Its over a year now since I released the first version of my AlexaPi code that turned a Raspberry Pi into your own Amazon Echo like device via the Alexa Voice Service API.</description>
+    </item>
+    
+    <item>
+      <title>The $10 Echo</title>
+      <link>https://www.sammachin.com/the-10-echo/</link>
+      <pubDate>Sun, 03 Jan 2016 16:05:30 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/the-10-echo/</guid>
+      <description>For the 3rd instillment of my &amp;ldquo;Putting Alexa on all the Things&amp;rdquo; series I&amp;rsquo;ve got Alexa up and running on a CHIP.</description>
+    </item>
+    
+    <item>
+      <title>Alexa in the Browser</title>
+      <link>https://www.sammachin.com/posts/alexa-in-the-browser/</link>
+      <pubDate>Thu, 17 Dec 2015 12:06:42 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/posts/alexa-in-the-browser/</guid>
+      <description>Following on from my previous hack allowing you to access Alexa from your phone with Twilio I present Alexa Web, accessing Alexa via your web browser.</description>
+    </item>
+    
+    <item>
+      <title>Call Alexa</title>
+      <link>https://www.sammachin.com/hacks-and-projects/call-alexa/</link>
+      <pubDate>Wed, 16 Dec 2015 18:35:52 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/hacks-and-projects/call-alexa/</guid>
+      <description>I&amp;rsquo;ve been doing a lot of stuff with the Amazon Echo and the underlying Alexa service which sits behind it.</description>
+    </item>
+    
+    <item>
+      <title>SMS Lists via Google Docs &amp; Twilio</title>
+      <link>https://www.sammachin.com/sms-lists-via-google-docs-twilio/</link>
+      <pubDate>Tue, 05 May 2015 20:10:50 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/sms-lists-via-google-docs-twilio/</guid>
+      <description>Let face it the world runs on spreadsheets. Although meant as a financial tool they&amp;rsquo;ve found their way into just about every part of a business and quite a few home uses too.</description>
+    </item>
+    
+    <item>
+      <title>Beacon Calling - TAD Hack London 2015</title>
+      <link>https://www.sammachin.com/hacks-and-projects/beacon-calling-tad-hack-london-2015/</link>
+      <pubDate>Tue, 05 May 2015 13:25:04 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/hacks-and-projects/beacon-calling-tad-hack-london-2015/</guid>
+      <description>I attended my first TAD Hack event back in April, TAD Hack is a hackday aimed at telecom application developers, so in general its going to be people that like playing with things like SIP and WebRTC, possibly dabbling in a little light SMS!</description>
     </item>
     
     <item>
@@ -62,6 +116,15 @@
     </item>
     
     <item>
+      <title>Indie Talk</title>
+      <link>https://www.sammachin.com/indie-talk/</link>
+      <pubDate>Fri, 12 Sep 2014 12:37:05 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/indie-talk/</guid>
+      <description>For quite a while now I&amp;rsquo;ve been thinking, talking and hacking away on something I&amp;rsquo;m calling The Talk Project, I won&amp;rsquo;t go into too much detail about that here, you can read some more on the sites own page, and I&amp;rsquo;m intending to add a lot more to that site in the coming months.</description>
+    </item>
+    
+    <item>
       <title>A platform based bank account</title>
       <link>https://www.sammachin.com/blog/a-platform-based-bank-account/</link>
       <pubDate>Tue, 26 Aug 2014 10:58:10 +0000</pubDate>
@@ -89,6 +152,15 @@
     </item>
     
     <item>
+      <title>Faking iBeacons</title>
+      <link>https://www.sammachin.com/hacks-and-projects/faking-ibeacons/</link>
+      <pubDate>Mon, 14 Jul 2014 17:04:09 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/hacks-and-projects/faking-ibeacons/</guid>
+      <description>Back in January at CES 2014 the organisers added a feature to the event app whereby you could unlock badges in the app by visiting different areas of the show floor and unlocking the badges by your phone detecting an iBeacon, I managed to write a simple hack to spoof these iBeacons from my MacBook therefore unlocking all the badges without leaving home :)</description>
+    </item>
+    
+    <item>
       <title>New site Old Blog posts</title>
       <link>https://www.sammachin.com/blog/new-site-old-blog-posts/</link>
       <pubDate>Mon, 14 Jul 2014 16:14:55 +0000</pubDate>
@@ -98,21 +170,39 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://www.sammachin.com/projects/</link>
-      <pubDate>Sun, 13 Jul 2014 20:54:41 +0000</pubDate>
+      <title>Beating the Phone Spammers</title>
+      <link>https://www.sammachin.com/hacks-and-projects/beating-the-phone-spammers/</link>
+      <pubDate>Mon, 14 Jul 2014 14:21:51 +0000</pubDate>
       
-      <guid>https://www.sammachin.com/projects/</guid>
-      <description>This is where I try and document the stuff I&amp;rsquo;ve built most things are small hacks either for my own personal convenience or often as part of a hackday</description>
+      <guid>https://www.sammachin.com/hacks-and-projects/beating-the-phone-spammers/</guid>
+      <description>Ever since we moved into our house over 7 years ago now we&amp;rsquo;ve had a real problem with phone spam on the home number, we took over the same number as the lady who lived here previously as it was the fastest way to get a connection so that I could order ADSL on the line, I think I got it to 4-5days after we moved in :)</description>
     </item>
     
     <item>
-      <title>Hello</title>
-      <link>https://www.sammachin.com/</link>
-      <pubDate>Sun, 13 Jul 2014 14:27:25 +0000</pubDate>
+      <title>Tracking Data Usage</title>
+      <link>https://www.sammachin.com/posts/tracking-data-usage/</link>
+      <pubDate>Mon, 14 Jul 2014 13:11:58 +0000</pubDate>
       
-      <guid>https://www.sammachin.com/</guid>
-      <description>Welcome to my site, this is intended to be a mixture of professional and personal stuff, I&amp;rsquo;m occasionally writing some of my thoughts in the blog and I&amp;rsquo;m trying to write up as many of the things I build in the Projects section.</description>
+      <guid>https://www.sammachin.com/posts/tracking-data-usage/</guid>
+      <description>A few months back I changed ISP over toAndrews and Arnold, they&amp;rsquo;re great by the way, not the cheapest but I&amp;rsquo;m a big believer in you get what you pay for and they certainly delivery a quality product.</description>
+    </item>
+    
+    <item>
+      <title>Distance Matrix</title>
+      <link>https://www.sammachin.com/hacks-and-projects/distance-matrix/</link>
+      <pubDate>Sun, 13 Jul 2014 21:51:29 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/hacks-and-projects/distance-matrix/</guid>
+      <description>A few months back there was a serious possibility that we were going to have to move house as a result of my wifes&#39; job, she&amp;rsquo;s an A&amp;amp;E Doctor and I won&amp;rsquo;t bore you with the details but the way that medical recrutment works is its all done on regions and you get allocated/offered a job in a certain region, this will then usually consist of &amp;lsquo;rotating&amp;rsquo; around 5-6 (or more) hospitals every 6-12 months.</description>
+    </item>
+    
+    <item>
+      <title>Twilio to Sonos via Heroku, Pusher and a Pi.</title>
+      <link>https://www.sammachin.com/hacks-and-projects/twilio-to-sonos-via-heroku-pusher-and-a-pi/</link>
+      <pubDate>Sun, 13 Jul 2014 21:18:25 +0000</pubDate>
+      
+      <guid>https://www.sammachin.com/hacks-and-projects/twilio-to-sonos-via-heroku-pusher-and-a-pi/</guid>
+      <description>Over the easter weekend I was looking for an idea of something to build, somehow I came up with the idea that it would be kind of cool to be able to make &amp;lsquo;announcements&amp;rsquo; around my house when I&amp;rsquo;m not there, not really sure why but I&amp;rsquo;m sure there&amp;rsquo;s some use case for this when combined with a home security webcam or maybe I can just talk to the cats.</description>
     </item>
     
     <item>

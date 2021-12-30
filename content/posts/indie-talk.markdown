@@ -3,7 +3,7 @@ author: sammachin
 date: 2014-09-12 12:37:05+00:00
 draft: false
 title: Indie Talk
-type: page
+type: post
 url: /indie-talk/
 ---
 

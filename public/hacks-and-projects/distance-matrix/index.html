@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Sam Machin | Projects </title>
+    <title> Sam Machin | Distance Matrix </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.91.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Product Manager, Hacker, Geek">
     
@@ -10,13 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://www.sammachin.com/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.sammachin.com/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.sammachin.com/favicons/favicon-16x16.png">
-    <link rel="canonical" href="https://www.sammachin.com/projects/">
+    <link rel="canonical" href="https://www.sammachin.com/hacks-and-projects/distance-matrix/">
     
     
     <script type="text/javascript" src="https://www.sammachin.com/js/anatole-header.min.3252f25a22b06e9062229fa50b222e04393830ad8260421079b1d55ace7605b3.js" integrity="sha256-MlLyWiKwbpBiIp&#43;lCyIuBDk4MK2CYEIQebHVWs52BbM=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="This is where I try and document the stuff I&rsquo;ve built most things are small hacks either for my own personal convenience or often as part of a hackday"/>
+<meta name="twitter:title" content="Distance Matrix"/>
+<meta name="twitter:description" content="A few months back there was a serious possibility that we were going to have to move house as a result of my wifes&#39; job, she&rsquo;s an A&amp;E Doctor and I won&rsquo;t bore you with the details but the way that medical recrutment works is its all done on regions and you get allocated/offered a job in a certain region, this will then usually consist of &lsquo;rotating&rsquo; around 5-6 (or more) hospitals every 6-12 months."/>
 
 </head><body><div class="sidebar animated fadeInDown">
     <div class="logo-title">
@@ -51,6 +51,13 @@
         </li>
 
         
+        <li>
+        <a href="https://www.youtube.com/c/SamMachin" rel="me" aria-label="YouTube">
+          <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
     </ul>
     <div class="footer">
         <div class="by_farbox">&copy; Sam Machin 2021 </div>
@@ -66,9 +73,6 @@
         
         
         <li><a  href="/posts/" title="">Posts</a></li>
-        
-        
-        <li><a class="current" href="/projects/" title="">Projects</a></li>
         
         
         <li><a  href="/about/" title="">About</a></li>
@@ -87,12 +91,18 @@
     <div class="post-content">
 
       <div class="post-title">
-        <h3>Projects
+        <h3>Distance Matrix
         </h3>
         
         </div>
 
-    <p>This is where I try and document the stuff I&rsquo;ve built most things are small hacks either for my own personal convenience or often as part of a hackday</p>
+    <p>A few months back there was a serious possibility that we were going to have to move house as a result of my wifes' job, she&rsquo;s an A&amp;E Doctor and I won&rsquo;t bore you with the details but the way that medical recrutment works is its all done on regions and you get allocated/offered a job in a certain region, this will then usually consist of &lsquo;rotating&rsquo; around 5-6 (or more) hospitals every 6-12 months. These hospitals are pretty spread out for example in our current Region she could end up working anywhere from Yeovil to Gloucester to Swindon. This means you either try and live somewhere central to them all and accept a long commute or move home every 6-12 months. When you get to your early 30&rsquo;s though you want to try and settle down and live in one place, or at least thats what we do.</p>
+<p>So there we were having to consider a major move to another region, we didn&rsquo;t really know much about a lot of the areas and all we really had was a list of the hospitals but from that we had to try and find where we might want to live, that was A) not a total craphole, B) Affordable and C) within a reasonable travel time of all the hospitals. Initially C was generally consisting of mutiple cut &amp; pastes into Google Maps and trying to work out multiple times.</p>
+<p>This was one part that knew could be automated to be much easier, Google Maps have a nice little API called the <a href="https://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CCAQFjAA&amp;url=https%3A%2F%2Fdevelopers.google.com%2Fmaps%2Fdocumentation%2Fdistancematrix&amp;ei=3f7CU4LXC9Ty7AaRzoD4Bw&amp;usg=AFQjCNG4uG--V0sCVmx4nca-Nb1afWIvfg&amp;sig2=D62zMHAATmlAiYNb8aUqEw&amp;bvm=bv.70810081,d.ZWU">distance matrix</a>, whereby you can pass in a list of locations alone with a start point and it will tell you the time &amp; distance to each one of them, I don&rsquo;t think this functionality is available in the GMaps web frontend which is a shame as its a really useful feature, anyway I set about building a simple front end to use the API,</p>
+<p>The result is<a href="http://matrix.sammachin.com"> matrix.sammachin.com</a> a little one page app running on heroku, the idea is that you build a list of locations on the left hand side, these ca be anything from postcodes to &ldquo;Bristol, UK&rdquo; (remember to specify the country as google will default to globally) then click around the map and it re-calculates the time &amp; distance to each of those points from where you clicked, it was an interesting little project and got me up using the latest google maps javascript as I&rsquo;d only done stuff with the very old and depreciated v1 &amp; v2 until now.</p>
+<p>Its running on heroku so I&rsquo;ll leave it there, it might be useful to someone and its not costing me anything, however I can&rsquo;t guarantee it will always work if google changes something on the API.</p>
+<p><a href="http://matrix.sammachin.com"><img src="http://sammachin.com/wp-content/uploads/2014/07/matrix_screenshot-1024x642.png" alt="matrix_screenshot">
+</a></p>
 
     </div>
     <div class="post-footer">

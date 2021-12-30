@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Sam Machin | The $10 Echo </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.91.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Product Manager, Hacker, Geek">
+    
+    <link rel="stylesheet" href="https://www.sammachin.com/css/style.min.707aa4670276c49b9db4a4ed6b89419c0ed1b4346e2104f50a364aa767d77773.css" integrity="sha256-cHqkZwJ2xJudtKTta4lBnA7RtDRuIQT1CjZKp2fXd3M=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://www.sammachin.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.sammachin.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.sammachin.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.sammachin.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://www.sammachin.com/the-10-echo/">
+    
+    
+    <script type="text/javascript" src="https://www.sammachin.com/js/anatole-header.min.3252f25a22b06e9062229fa50b222e04393830ad8260421079b1d55ace7605b3.js" integrity="sha256-MlLyWiKwbpBiIp&#43;lCyIuBDk4MK2CYEIQebHVWs52BbM=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The $10 Echo"/>
+<meta name="twitter:description" content="For the 3rd instillment of my &ldquo;Putting Alexa on all the Things&rdquo; series I&rsquo;ve got Alexa up and running on a CHIP."/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://www.sammachin.com/images/profile.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Sam Machin</a></h3>
+        <div class="description">
+          <p>Product Manager, Hacker, Geek</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/sammachin/" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/sammachin" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/sammachin" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.youtube.com/c/SamMachin" rel="me" aria-label="YouTube">
+          <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Sam Machin 2021 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/posts/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>The $10 Echo
+        </h3>
+        
+        </div>
+
+    <p>For the 3rd instillment of my &ldquo;Putting Alexa on all the Things&rdquo; series I&rsquo;ve got Alexa up and running on a <a href="http://getchip.com">CHIP</a>.</p>
+<p>For those of you that don&rsquo;t know the CHIP is a bit like the Raspberry Pi, it’s a small, cheap ARM based computer that runs linux and has some input/output pins, I backed the CHIP on kickstarter last May time and had kinda forgotten about it until they turned up in the post on New Year’s Eve :) I also just picked up a Raspberry Pi Zero but for this project the CHIP seemed like a better platform and it was a good opportunity to try it out. The advantages of the CHIP over the Pi zero are that it has onboard WiFi and a built in audio in/out interface (with a small mod) The Pi would have required USB adaptors to have WiFi and the Mic in working along with needing a memory card so although the Pi Zero is $5 and the CHIP is $9 in total BOM the CHIP works out cheapest.</p>
+<p>The CHIP came pre-installed with a custom build of Debian on its built-in 4GB storage, (taking about 400MB leaving plenty of room to work) Out of the box it has composite output and comes with an old school phono cable so I hooked it up to my TV and plugged in a USB keyboard and mouse which got me booted to a typical desktop, from here I configured the WiFi to connect to my home network, checked the IP address and then confirmed I could SSH onto it. Once all that was done I could unplug it from the TV and I wouldn&rsquo;t need GUI access any more, (you can also install a VNC server if you need to get back to the GUI later)
+The CHIP uses a TRRS 3.5mm jack on the board to interface to audio and video devices, if you want to use this connector as the Mic input it involves a small mod to the underside of the board, slicing through a track with a stanley knife and then putting a blob of solder across the 2 pads, you&rsquo;ve now lost the composite video out but gained mic in (hence my setting up the wifi before the HW mod!) Both the composite video and the mic in are available as pins on the breakout headers so if you need to connect to those at the same time or after the mod its still easy, thats about all the hardware work needed here, now it&rsquo;s just plugging stuff in and software.</p>
+<p>I wrote the alexa application in Python, I&rsquo;m using alsaaudio to record sound from the mic input then the same code that I used for my last 2 alexa hacks to pass it to the Alexa Voice Service. Because I have total control of the recording code this time I didn&rsquo;t need to do any transcoding into the wav format required by AVS I could just record and post directly. AVS responds with an MP3 rather annoyingly so I also had to have something to play that out, the simplest option was to install mpg123 and then play via a system command, a bit hacky but it works.
+The current implementation doesn&rsquo;t have the keyword detection of the echo (indeed I think implementing it on your own device is against Amazon&rsquo;s T&amp;Cs;!) so I attached a button to one of the GPIO pins on the CHIP, currently CHIP doesn&rsquo;t have a python library to interface to its GPIO and I didn&rsquo;t fancy getting down and dirty with C so I hacked it to poll via the filesystem, again rather ugly but seems to work.
+So now you press down the button speak your command to alexa and wait for the response to be played back :) I quite like this UX, I&rsquo;m tempted to try and find one of those old retro style desk intercoms that businessmen had on their desks in 80&rsquo;s films and put the board in that, then I can have Alexa as my PA on my desk :D</p>
+<p>I&rsquo;ve posted the code for all this on my <a href="https://github.com/sammachin/AlexaCHIP">github</a> along with an attempt to document how to set yourself up one, if anyone fancies porting to the Raspberry Pi it should be easy enough, just the GPIO stuff to refactor I think please send me a pull request. In terms of additions I&rsquo;d like to add an LED or two so you can see the status but I think I&rsquo;ll wait till CHIP have a proper GPIO library for that.
+As usual checkout the demo video below :)</p>
+<!-- raw HTML omitted -->
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://www.sammachin.com/js/jquery.min.64d0083866906099f942140bc1c5cba4b1bf65783c52e4a63c5c46bf9dbc41f4.js" integrity="sha256-ZNAIOGaQYJn5QhQLwcXLpLG/ZXg8UuSmPFxGv528QfQ=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://www.sammachin.com/js/bundle.min.45159b0e20ba3878972e064b7edc464c31a9e35a0d0a6a71e3fec84efdbe2ea5.js" integrity="sha256-RRWbDiC6OHiXLgZLftxGTDGp41oNCmpx4/7ITv2&#43;LqU=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://www.sammachin.com/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js" integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w=" crossorigin="anonymous"></script></html></body>
+
+</html>

@@ -3,7 +3,7 @@ author: sammachin
 date: 2015-05-05 20:10:50+00:00
 draft: false
 title: SMS Lists via Google Docs & Twilio
-type: page
+type: post
 url: /sms-lists-via-google-docs-twilio/
 ---
 

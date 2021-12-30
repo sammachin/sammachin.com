@@ -16,7 +16,7 @@ keywords = ""
 favicon = "favicons/"
 customCss = []
 customJs = []
-mainSections = ["posts", "projects"]
+mainSections = ["posts"]
 
 
 ## Social links
@@ -35,6 +35,11 @@ url = "https://twitter.com/sammachin"
 icon = "fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/sammachin"
+
+[[params.socialIcons]]
+icon = "fa-youtube"
+title = "YouTube"
+url = "https://www.youtube.com/c/SamMachin"
 
 
 ## Menu items
@@ -60,8 +65,3 @@ url = "https://www.linkedin.com/in/sammachin"
   identifier = "posts"
   url = "/posts/"
  
-  [[menu.main]]
-  name = "Projects"
-  weight = 200
-  identifier = "projects"
-  url = "/projects/"

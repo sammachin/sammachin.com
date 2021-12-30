@@ -3,8 +3,8 @@ author: nav9ok
 date: 2014-07-13 21:51:29+00:00
 draft: false
 title: Distance Matrix
-type: page
-url: /hacks-and-projects/distance-matrix/
+type: posts
+url: /distance-matrix/
 ---
 
 A few months back there was a serious possibility that we were going to have to move house as a result of my wifes' job, she's an A&E Doctor and I won't bore you with the details but the way that medical recrutment works is its all done on regions and you get allocated/offered a job in a certain region, this will then usually consist of 'rotating' around 5-6 (or more) hospitals every 6-12 months. These hospitals are pretty spread out for example in our current Region she could end up working anywhere from Yeovil to Gloucester to Swindon. This means you either try and live somewhere central to them all and accept a long commute or move home every 6-12 months. When you get to your early 30's though you want to try and settle down and live in one place, or at least thats what we do.

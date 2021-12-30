@@ -4,7 +4,7 @@ date: 2021-12-30 11:50:43+00:00
 draft: true
 title: AlexaWeb Reborn
 type: post
-url: /uncategorized/twitter/
+url: /alexaweb-reborn/
 tags:
 - alexa
 - node-red

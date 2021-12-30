@@ -4,7 +4,7 @@ date: 2007-03-23 20:46:43+00:00
 draft: false
 title: Twitter
 type: post
-url: /uncategorized/twitter/
+url: /blog/twitter/
 tags:
 - business model
 - radar
