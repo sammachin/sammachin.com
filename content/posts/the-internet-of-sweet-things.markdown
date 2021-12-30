@@ -3,8 +3,8 @@ author: sammachin
 date: 2016-01-03 18:48:51+00:00
 draft: false
 title: The Internet of (Sweet) Things
-type: page
-url: /the-internet-of-sweet-things/
+type: posts
+url: /posts/the-internet-of-sweet-things/
 ---
 
 The Friday before Christmas was the Christmas Party at the Pervasive Media Studio in Bristol, Unlike most office parties which involves a couple of boxes of cheap wine and drawing some holly on the meeting room whiteboard The Studio encourages residents to all create something interesting, there's usually some silly games, creative art and assorted tech projects that people have put together, its more an end of term at school feeling than your typical office party! This year I wanted to do something, and as its my current top toy, use the Amazon Echo. 
