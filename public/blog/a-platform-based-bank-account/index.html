@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
     <title> Sam Machin | A platform based bank account </title>
-    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.91.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Product Manager, Hacker, Geek">
     
-    <link rel="stylesheet" href="https://sammachin.com/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.sammachin.com/css/style.min.707aa4670276c49b9db4a4ed6b89419c0ed1b4346e2104f50a364aa767d77773.css" integrity="sha256-cHqkZwJ2xJudtKTta4lBnA7RtDRuIQT1CjZKp2fXd3M=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
-    <link rel="shortcut icon" href="https://sammachin.com/favicons/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://sammachin.com/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://sammachin.com/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://sammachin.com/favicons/favicon-16x16.png">
-    <link rel="canonical" href="https://sammachin.com/blog/a-platform-based-bank-account/">
+    <link rel="shortcut icon" href="https://www.sammachin.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.sammachin.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.sammachin.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.sammachin.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://www.sammachin.com/blog/a-platform-based-bank-account/">
     
     
-    <script type="text/javascript" src="https://sammachin.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.sammachin.com/js/anatole-header.min.3252f25a22b06e9062229fa50b222e04393830ad8260421079b1d55ace7605b3.js" integrity="sha256-MlLyWiKwbpBiIp&#43;lCyIuBDk4MK2CYEIQebHVWs52BbM=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="A platform based bank account"/>
 <meta name="twitter:description" content="For a long time I&rsquo;ve always felt that telecoms and banking/payments are pretty similar industries when it comes to technology, both handle massive amounts of real time transactional data, making a payment in a shop using a visa card is fairly similar to the idea of sending someone an SMS when you strip it back, of course payments have to have higher levels of security than telecoms but we&rsquo;re in the same ballpark."/>
@@ -21,7 +21,7 @@
 </head><body><div class="sidebar animated fadeInDown">
     <div class="logo-title">
       <div class="title">
-        <img src="https://sammachin.com/images/profile.jpg" alt="profile picture">
+        <img src="https://www.sammachin.com/images/profile.jpg" alt="profile picture">
         <h3 title=""><a href="/">Sam Machin</a></h3>
         <div class="description">
           <p>Product Manager, Hacker, Geek</p>
@@ -53,7 +53,7 @@
         
     </ul>
     <div class="footer">
-        <div class="by_farbox">&copy; Sam Machin 2020 </div>
+        <div class="by_farbox">&copy; Sam Machin 2021 </div>
       </div>
     </div>
 </div><div class="main">
@@ -123,9 +123,9 @@
 <p><em>Cheques</em> - I can generate a cheque to pay someone via the API, this is returned as a PDF which I can then print or send to them electronically. Whenever a cheque is generated or cashed I can configure applications to be notified.</p>
 <p><em>Counter Service</em> - My &lsquo;bank&rsquo; has an agreement with another High St bank or maybe the Post Office so that I can  transact cash or cheques in the real world, these events also result in a notification to my applications.</p>
 <p>So thats about it, not really very different from a standard account, all the same features are there, the major difference being that the the transactions you would normally only do via the banks internet banking website are available via an API and when actions hit your account such as debits or credits you can configure a 3rd party service to be notified. This in turn would allow services to be built that can link these. For example I might have an app that says &lsquo;When my expenses get paid in initiate a faster payment to my credit card then send me an email.&rsquo; Or I might want to create a separate visa card number to use for iTunes which sends me a push notification whenever a transaction is made. The idea is that these are building blocks we can integrate into the applications and services of our daily lives, I don&rsquo;t know all the ways that people would want to use and manage their accounts and I&rsquo;m sure that their bank doesn&rsquo;t either.</p>
-<p>Its worth talking for a moment about security as well, I expect most traditional banking people are screaming at this idea right now as being far too dangerous and who would ever grant a 3rd party access to your account, yet this is exactly how direct debits work, and with a realtime notification system as well as the ability to revoke actions the risk should be greatly reduced. In terms of granting applications permission I envisage some sort of oAuth type of process with permissions and limits, so when setting up the expense example above I might grant <em>AcmeExpenseManager</em> permission to receive notifications when a payment is made from &ldquo;Company X&rsquo; and permission to initiate a payment to &lsquo;Credit Card Company Y&rsquo; with a monthly transaction limit of say £500, this would be like giving a Facebook app permission to post to your wall, you&rsquo;d still see a permissions screen from your bank, be asked to enter a password (with 2 factor auth) to agree to it and have the ability to cancel/revoke the permission from the banks site  at any time.</p>
+<p>Its worth talking for a moment about security as well, I expect most traditional banking people are screaming at this idea right now as being far too dangerous and who would ever grant a 3rd party access to your account, yet this is exactly how direct debits work, and with a realtime notification system as well as the ability to revoke actions the risk should be greatly reduced. In terms of granting applications permission I envisage some sort of oAuth type of process with permissions and limits, so when setting up the expense example above I might grant <em>AcmeExpenseManager</em> permission to receive notifications when a payment is made from &ldquo;Company X' and permission to initiate a payment to &lsquo;Credit Card Company Y&rsquo; with a monthly transaction limit of say £500, this would be like giving a Facebook app permission to post to your wall, you&rsquo;d still see a permissions screen from your bank, be asked to enter a password (with 2 factor auth) to agree to it and have the ability to cancel/revoke the permission from the banks site  at any time.</p>
 <p>Notifications would be similarly configured so that an application would ask for permission to be notified of transactions meeting a certain set of criteria, e.g. whenever a Direct Debit is taken from my account of between £10 and £100 pounds, notifications would contain the full details of the transaction e.g. account number, reference,  sender/recipient, date/time, amount and optionally balance of the account. You could configure multiple notifications for the same type of transaction.</p>
-<p>Whats the business model here? well for the bank its pretty much the same as any regular current account, except the &lsquo;added value&rsquo; is in terms of the plan your on rather than gimmicky free gifts. Lets say the basic account gives me 1 physical card, 5 virtual cards and 3 account numbers,  I can configure 20 different application notifications and all of this is free, the rest of the usual type of add-ons apply If I use the card internationally I pa a couple of percent commission, if I choose to have and use an overdraft I pay a monthly fee, the interest on my credit balance is pretty poor and if I&rsquo;m overdrawn again I pay a higher rate of interest on that balance, the bank makes money in exactly the same way. Or I can choose to upgrade to a higher plan called  Silver/Gold/Platinum etc. these will add the ability to have more physical &amp; virtual cards, more account numbers and more notifications maybe I also get a better deal on international transactions and a fee free overdraft, for these tiers I pay a monthly fee of between £5 and £20 just like todays&rsquo; High Street accounts.</p>
+<p>Whats the business model here? well for the bank its pretty much the same as any regular current account, except the &lsquo;added value&rsquo; is in terms of the plan your on rather than gimmicky free gifts. Lets say the basic account gives me 1 physical card, 5 virtual cards and 3 account numbers,  I can configure 20 different application notifications and all of this is free, the rest of the usual type of add-ons apply If I use the card internationally I pa a couple of percent commission, if I choose to have and use an overdraft I pay a monthly fee, the interest on my credit balance is pretty poor and if I&rsquo;m overdrawn again I pay a higher rate of interest on that balance, the bank makes money in exactly the same way. Or I can choose to upgrade to a higher plan called  Silver/Gold/Platinum etc. these will add the ability to have more physical &amp; virtual cards, more account numbers and more notifications maybe I also get a better deal on international transactions and a fee free overdraft, for these tiers I pay a monthly fee of between £5 and £20 just like todays' High Street accounts.</p>
 <p>This isn&rsquo;t about radically changing the core of banking its about exposing that core service to the digital world, I&rsquo;m happy to pay for the service and I don&rsquo;t really have a problem with the way bank accounts work, what sucks is the front ends I have to access them, I want to link my account to the rest of my life, using services like <a href="http://ifttt.com">IFTTT</a>, <a href="http://expensify.com">Expensify</a>, Google Docs and even FourSquare!,  with push notifications and all in as near to realtime as the systems will allow.</p>
 <p>So tell me this can&rsquo;t be done? Fine I know this is a grand design, but if there is something thats stopping it, then lets fix that clear the barriers and at least try, don&rsquo;t just sit there and say NO. I&rsquo;m sure this will need some established mainstream bank that has access to the back end network to at least sponsor it if not implement it, and I don&rsquo;t expect they&rsquo;d launch this on their main brand, but there must be the MVNO equivalent for banking?</p>
 <p>I&rsquo;m not &lsquo;announcing&rsquo; this, nor is it something I&rsquo;m even building its just an idea in my head, and I&rsquo;m sharing it with the world because I&rsquo;d much rather someone else made it happen than it just sat locked up in my head, but if you&rsquo;re reading this and think you&rsquo;ve got whats needed to do it then get in touch and lets talk,  I&rsquo;d love to work on it but I can&rsquo;t do it on my own.</p>
@@ -153,13 +153,13 @@
 
 
 
-<script type="text/javascript" src="https://sammachin.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://www.sammachin.com/js/jquery.min.64d0083866906099f942140bc1c5cba4b1bf65783c52e4a63c5c46bf9dbc41f4.js" integrity="sha256-ZNAIOGaQYJn5QhQLwcXLpLG/ZXg8UuSmPFxGv528QfQ=" crossorigin="anonymous"></script>
 
 
 
 
-<script type="text/javascript" src="https://sammachin.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://www.sammachin.com/js/bundle.min.45159b0e20ba3878972e064b7edc464c31a9e35a0d0a6a71e3fec84efdbe2ea5.js" integrity="sha256-RRWbDiC6OHiXLgZLftxGTDGp41oNCmpx4/7ITv2&#43;LqU=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" src="https://sammachin.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+<script type="text/javascript" src="https://www.sammachin.com/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js" integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w=" crossorigin="anonymous"></script></html></body>
 
 </html>

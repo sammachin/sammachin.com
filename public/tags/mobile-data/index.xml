@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mobile data on Sam Machin</title>
-    <link>https://sammachin.com/tags/mobile-data/</link>
+    <link>https://www.sammachin.com/tags/mobile-data/</link>
     <description>Recent content in mobile data on Sam Machin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2009 21:25:33 +0000</lastBuildDate>
-    
-	<atom:link href="https://sammachin.com/tags/mobile-data/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Jul 2009 21:25:33 +0000</lastBuildDate><atom:link href="https://www.sammachin.com/tags/mobile-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenMIC - Mobile Data Charging</title>
-      <link>https://sammachin.com/blog/openmic-mobile-data-charging/</link>
+      <link>https://www.sammachin.com/blog/openmic-mobile-data-charging/</link>
       <pubDate>Thu, 02 Jul 2009 21:25:33 +0000</pubDate>
       
-      <guid>https://sammachin.com/blog/openmic-mobile-data-charging/</guid>
+      <guid>https://www.sammachin.com/blog/openmic-mobile-data-charging/</guid>
       <description>We had a very interesting discussion at OpenMIC 2 today, I put the topic up as &amp;ldquo;Lets Design the Perfect Mobile Data Charging Model&amp;rdquo; quite a daunting task but I thought it might attract attention</description>
     </item>
     

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>international on Sam Machin</title>
-    <link>https://sammachin.com/tags/international/</link>
+    <link>https://www.sammachin.com/tags/international/</link>
     <description>Recent content in international on Sam Machin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Feb 2011 10:56:22 +0000</lastBuildDate>
-    
-	<atom:link href="https://sammachin.com/tags/international/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 03 Feb 2011 10:56:22 +0000</lastBuildDate><atom:link href="https://www.sammachin.com/tags/international/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android, Buyer Currency Support C-</title>
-      <link>https://sammachin.com/blog/android-buyer-currency-support-c/</link>
+      <link>https://www.sammachin.com/blog/android-buyer-currency-support-c/</link>
       <pubDate>Thu, 03 Feb 2011 10:56:22 +0000</pubDate>
       
-      <guid>https://sammachin.com/blog/android-buyer-currency-support-c/</guid>
+      <guid>https://www.sammachin.com/blog/android-buyer-currency-support-c/</guid>
       <description>One of the new features announced by Google yesterday was support for &amp;ldquo;Buyer Currency&amp;rdquo; now this may come as something of a shock to iPhone users but chargeable apps in the Android Market have been billed in the developers currency since launch!</description>
     </item>
     

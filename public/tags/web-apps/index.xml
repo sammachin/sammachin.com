@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web apps on Sam Machin</title>
-    <link>https://sammachin.com/tags/web-apps/</link>
+    <link>https://www.sammachin.com/tags/web-apps/</link>
     <description>Recent content in web apps on Sam Machin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Aug 2007 20:47:42 +0000</lastBuildDate>
-    
-	<atom:link href="https://sammachin.com/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 16 Aug 2007 20:47:42 +0000</lastBuildDate><atom:link href="https://www.sammachin.com/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Web 2.0 Life</title>
-      <link>https://sammachin.com/blog/my-web-20-life/</link>
+      <link>https://www.sammachin.com/blog/my-web-20-life/</link>
       <pubDate>Thu, 16 Aug 2007 20:47:42 +0000</pubDate>
       
-      <guid>https://sammachin.com/blog/my-web-20-life/</guid>
+      <guid>https://www.sammachin.com/blog/my-web-20-life/</guid>
       <description>I’ve been thinking about my whole web2.0 life for a few weeks now and the multitude of different platforms out there.</description>
     </item>
     
