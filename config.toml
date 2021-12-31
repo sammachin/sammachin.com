@@ -47,13 +47,6 @@ url = "https://www.youtube.com/c/SamMachin"
 [menu]
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/home/"
- 
-
-  [[menu.main]]
   name = "About"
   weight = 300
   identifier = "about"

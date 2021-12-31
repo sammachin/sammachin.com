@@ -1,5 +1,5 @@
 ---
-author: nav9ok
+author: sammachin
 date: 2021-12-30 10:30:22+00:00
 draft: false
 title: About
