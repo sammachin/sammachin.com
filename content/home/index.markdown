@@ -4,7 +4,7 @@ date: 2014-07-13 14:27:25+00:00
 draft: false
 title: Welcome
 type: page
-url: /
+url: /home
 ---
 
 Welcome to my site, this is intended to be a mixture of professional and personal stuff, I'm occasionally writing some of my thoughts  and I'm trying to write up as many of the things I build.

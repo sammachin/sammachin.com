@@ -50,7 +50,7 @@ url = "https://www.youtube.com/c/SamMachin"
   name = "Home"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/home/"
  
 
   [[menu.main]]

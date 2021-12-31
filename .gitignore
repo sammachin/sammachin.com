@@ -3,3 +3,6 @@
 /resources/_gen/
 
 hugo.darwin
+.hugo*
+.hugo/*
+!.hugo/version
