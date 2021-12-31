@@ -16,28 +16,27 @@ keywords = ""
 favicon = "favicons/"
 customCss = []
 customJs = []
-mainSections = ["posts"]
+mainSections = []
 
 
 ## Social links
-
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/sammachin/"
 
 [[params.socialIcons]]
-icon = "fa-twitter"
+icon = "fab fa-twitter"
 title = "twitter"
 url = "https://twitter.com/sammachin"
 
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/sammachin"
 
 [[params.socialIcons]]
-icon = "fa-youtube"
+icon = "fab fa-youtube"
 title = "YouTube"
 url = "https://www.youtube.com/c/SamMachin"
 

@@ -1,7 +1,9 @@
 ---
 url: /
 title: Welcome
+type: page
 ---
+# Welcome
 
 Welcome to my site, 
 this is intended to be a mixture of professional and personal stuff, 
