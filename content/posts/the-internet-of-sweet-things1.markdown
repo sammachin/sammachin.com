@@ -3,8 +3,8 @@ author: sammachin
 date: 2016-01-03 18:48:51+00:00
 draft: false
 title: The Internet of (Sweet) Things
-type: posts
-url: /the-internet-of-sweet-thing/
+type: post
+url: /posts/the-internet-of-sweet-things/
 ---
 
 The Friday before Christmas was the Christmas Party at the Pervasive Media Studio in Bristol, Unlike most office parties which involves a couple of boxes of cheap wine and drawing some holly on the meeting room whiteboard The Studio encourages residents to all create something interesting, there's usually some silly games, creative art and assorted tech projects that people have put together, its more an end of term at school feeling than your typical office party! This year I wanted to do something, and as its my current top toy, use the Amazon Echo. 
@@ -19,9 +19,8 @@ After poking around with a multimeter and shorting a few points I figured that t
 
 For my new control hardware I used a Particle Photon board and a small Solid State Relay from Maplin (I could have used a regular relay but this was the cheapest in stock) I worked out that to deliver around 5-7 sweets the motor needed to be on for 2secs, any shorter and the user might get nothing and too long would risk the motor getting hot. So a simple bit of code on the photon to have a function take a pin high for 2 secs and then wiring that pin to the input of the Relay with a new 5V usb power supply through the relay to the motor. 
 
-The Particle boards also have the advantage of being integrated to IFTTT so I now had the ability to call my function to drive my motor all from any IFTTT event, also Alexa can be setup as an IFTTT trigger with your own custom keyword, so without even needing any of my own server side code I now have a voice activate M&M; dispenser!
+The Particle boards also have the advantage of being integrated to IFTTT so I now had the ability to call my function to drive my motor all from any IFTTT event, also Alexa can be setup as an IFTTT trigger with your own custom keyword, so without even needing any of my own server side code I now have a voice activated candy dispenser!
 
 Checkout the video of Sienna demonstrating the setup at our Christmas Party below.
 
-
-<iframe width="560" allowfullscreen="None" src="https://www.youtube.com/embed/ei_BbkTW3pA" frameborder="0" height="315"></iframe>
+{{< youtube ei_BbkTW3pA >}}

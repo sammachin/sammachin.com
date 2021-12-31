@@ -4,7 +4,7 @@ date: 2015-12-16 18:35:52+00:00
 draft: false
 title: Call Alexa
 type: post
-url: /call-alexa/
+url: /posts/call-alexa/
 ---
 
 I've been doing a lot of stuff with the Amazon Echo and the underlying Alexa service which sits behind it. For those of you that don't know the Echo is a home 'appliance' about the size of a tube of Pringles, it sits in the home and responds to the keyword "Alexa" you can then ask it questions or give commands. Since Alexa was integrated with IFTTT as a trigger its opened up a whole world of fun integrations, especially to my various connected home devices, I can now say "Alexa Trigger Office Lights" and the LIFX bulbs in my office turn on or off, or Alexa TV off and the Harmony Hub will shut off my TV!

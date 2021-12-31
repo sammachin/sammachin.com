@@ -4,7 +4,7 @@ date: 2015-05-05 20:10:50+00:00
 draft: false
 title: SMS Lists via Google Docs & Twilio
 type: post
-url: /sms-lists-via-google-docs-twilio/
+url: /posts/sms-lists-via-google-docs-twilio/
 ---
 
 Let face it the world runs on spreadsheets. Although meant as a financial tool they've found their way into just about every part of a business and quite a few home uses too. Databases, lists, forms, even data manipulation for things like logfiles end up being done in spreadsheets. Why? because they're a tool everybody has, any anyone can use. Whilst as developers we like the idea that businesses will use beautiful web-apps with fancy noSQL backends and running the latest hipster frameworks the truth of the matter is that day to day most stuff happens in excel, and if people need to share that stuff they email the file around.

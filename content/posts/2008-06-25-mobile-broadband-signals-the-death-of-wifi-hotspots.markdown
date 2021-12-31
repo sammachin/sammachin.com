@@ -4,14 +4,7 @@ date: 2008-06-25 15:15:57+00:00
 draft: false
 title: Mobile Broadband signals the Death of WiFi Hotspots
 type: post
-url: /blog/mobile-broadband-signals-the-death-of-wifi-hotspots/
-categories:
-- Blog
-tags:
-- business models
-- mobile
-- mobile broadband
-- wifi
+url: /posts/mobile-broadband-signals-the-death-of-wifi-hotspots/
 ---
 
 Its been a long time since I last wrote a proper post and I doubt this will be that, however having just spent the afternoon chatting with the guys at [carsonified](http://carsonified.com/)about whats happening in the mobile industry I’m feeling all inspired.

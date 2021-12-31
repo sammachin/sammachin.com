@@ -4,9 +4,7 @@ date: 2014-07-14 16:14:55+00:00
 draft: false
 title: New site Old Blog posts
 type: post
-url: /blog/new-site-old-blog-posts/
-categories:
-- Blog
+url: /posts/new-site-old-blog-posts/
 ---
 
 I finally decided I needed to overhaul my 'site' I had a very ageing wordpress blog that hadn't seen much of an update in several years and really just needed taking out an shooting. In addition I wanted to get things onto some slightly more stable hosting than my own server that used for hacks and demos and something that has some backup. So what you're seeing here is a brand spanking new fresh install of wordpress with some nice themes, new layout and all the bells & whistles.

@@ -4,7 +4,7 @@ date: 2014-07-13 21:18:25+00:00
 draft: false
 title: Twilio to Sonos via Heroku, Pusher and a Pi.
 type: post
-url: /twilio-to-sonos-via-heroku-pusher-and-a-pi/
+url: /posts/twilio-to-sonos-via-heroku-pusher-and-a-pi/
 ---
 
 Over the easter weekend I was looking for an idea of something to build, somehow I came up with the idea that it would be kind of cool to be able to make 'announcements' around my house when I'm not there, not really sure why but I'm sure there's some use case for this when combined with a home security webcam or maybe I can just talk to the cats.

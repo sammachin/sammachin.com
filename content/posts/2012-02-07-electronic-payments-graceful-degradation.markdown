@@ -4,9 +4,7 @@ date: 2012-02-07 17:03:36+00:00
 draft: false
 title: Electronic Payments & Graceful Degradation
 type: post
-url: /blog/electronic-payments-graceful-degradation/
-categories:
-- Blog
+url: /posts/electronic-payments-graceful-degradation/
 ---
 
 Theres a lot of hype around NFC & mobile payments going around, analyst are predicting it as the next big thing and rumour mills are churning out stories about the iPhone 5 having NFC faster than a Foxconn plant on double time.

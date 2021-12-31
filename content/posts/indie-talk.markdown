@@ -4,7 +4,7 @@ date: 2014-09-12 12:37:05+00:00
 draft: false
 title: Indie Talk
 type: post
-url: /indie-talk/
+url: /posts/indie-talk/
 ---
 
 For quite a while now I've been thinking, talking and hacking away on something I'm calling The Talk Project, I won't go into too much detail about that here, you can read some more on the sites own page, and I'm intending to add a lot more to that site in the coming months.

@@ -4,7 +4,7 @@ date: 2014-07-14 13:11:58+00:00
 draft: false
 title: Tracking Data Usage
 type: post
-url: /tracking-data-usage/
+url: /posts/tracking-data-usage/
 ---
 
 A few months back I changed ISP over to[ Andrews and Arnold](http://aaisp.net/), they're great by the way, not the cheapest but I'm a big believer in you get what you pay for and they certainly delivery a quality product.

@@ -4,19 +4,10 @@ date: 2009-09-23 20:44:32+00:00
 draft: false
 title: That syncing feeling
 type: post
-url: /blog/that-syncing-feeling/
-categories:
-- Blog
-tags:
-- calendar
-- contacts
-- PIM
-- sync
+url: /posts/that-syncing-feeling/
 ---
 
 There's been some recent discussions around contact syncing and particularly issues wiht the HTC Hero's latest update. Mark Watts-Jones had a rather embarrassing moment he shared on [twitter ](http://twitter.com/MWJ/status/4323964974) and it made me think about the whole issue of keeping mobile device information current.
-
-<!-- more -->
 
 Looking back about 10 years I've never had a device that can sync perfectly everytime, from my first Palm III through to my new iPhone 3GS every mobile device I've owned has at some point lost or messed up my information. So what do we do about it.
 
@@ -30,4 +21,3 @@ Now then people are always going to complain that there are times when you are n
 
 Lets get thinking about what we are actually trying to do in these situations, I don't want to find a contact in my phonebook I want to talk to Fred,  I'm not trying to view my calendar I want to know if my wife is working late next week. Once we've identified these use cases then  think about the solutions, its rime for some, "blue sky", "outside the box", "helicopter view" thinking. And seeing as this post rapidly heading into buzzword land I'll leave it there.
 
-Please let me know your ideas in the comments.

@@ -4,7 +4,7 @@ date: 2016-01-03 16:05:30+00:00
 draft: false
 title: The $10 Echo
 type: post
-url: /the-10-echo/
+url: /posts/the-10-echo/
 ---
 
 For the 3rd instillment of my "Putting Alexa on all the Things" series I've got Alexa up and running on a [CHIP](http://getchip.com).

@@ -4,9 +4,8 @@ date: 2014-11-05 11:05:08+00:00
 draft: false
 title: 'A Story of Enterprise IT:'
 type: post
-url: /blog/a-story-of-enterprise-it/
-categories:
-- Blog
+url: /posts/a-story-of-enterprise-it/
+
 ---
 
 [![Enterprise IT](http://sammachin.com/wp-content/uploads/2014/11/Enterprise-IT.jpg)

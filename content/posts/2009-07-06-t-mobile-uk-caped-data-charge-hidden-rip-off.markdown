@@ -4,19 +4,10 @@ date: 2009-07-06 19:13:55+00:00
 draft: false
 title: T-Mobile UK Capped Data Charge - Hidden Rip Off
 type: post
-url: /blog/t-mobile-uk-caped-data-charge-hidden-rip-off/
-categories:
-- Blog
-tags:
-- data charging
-- latitude
-- normob
-- tmobile
+url: /posts/t-mobile-uk-caped-data-charge-hidden-rip-off/
 ---
 
 I recently managed to get my wife to become a regular user of mobile data, great I thought this stuff is finally getting mainstream traction, Until we got this months bill...
-
-<!-- more -->
 
 She's got her gmail setup on her phone and occasionally will Google for something but certainly nothing that would say she was a regular user. Until I setup Google [Latitude](http://www.google.com/intl/en_us/latitude/intro.html) It works really well for us as we car-share so she can use it to check if I've left the office and am on my way to pick her up so she doesn't waste time waiting for me. I found it great when she was working late as I could see when she's left and get dinner on.
 

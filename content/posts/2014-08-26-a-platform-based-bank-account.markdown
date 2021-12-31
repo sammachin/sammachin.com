@@ -4,9 +4,7 @@ date: 2014-08-26 10:58:10+00:00
 draft: false
 title: A platform based bank account
 type: post
-url: /blog/a-platform-based-bank-account/
-categories:
-- Blog
+url: /posts/a-platform-based-bank-account/
 ---
 
 For a long time I've always felt that telecoms and banking/payments are pretty similar industries when it comes to technology, both handle massive amounts of real time transactional data, making a payment in a shop using a visa card is fairly similar to the idea of sending someone an SMS when you strip it back, of course payments have to have higher levels of security than telecoms but we're in the same ballpark. I've had an idea at the back of my mind for a few months that I call the Platform Bank Account. Looking at the success of [Twilio](http://twilio.com) (and other telecoms API platforms) I started thinking what would a 'Twilio for banks' look like.

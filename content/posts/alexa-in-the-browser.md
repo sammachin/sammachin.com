@@ -3,8 +3,8 @@ author: sammachin
 date: 2015-12-17 12:06:42+00:00
 draft: false
 title: Alexa in the Browser
-type: page
-url: /alexa-in-the-browser/
+type: post
+url: /posts/alexa-in-the-browser/
 ---
 
 Following on from my previous [hack](http://sammachin.com/hacks-and-projects/call-alexa/) allowing you to access Alexa from your phone with Twilio I present Alexa Web, accessing Alexa via your web browser.

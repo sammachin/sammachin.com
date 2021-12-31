@@ -4,9 +4,7 @@ date: 2010-11-01 11:41:28+00:00
 draft: false
 title: My Breakfast
 type: post
-url: /blog/my-breakfast/
-categories:
-- Blog
+url: /posts/my-breakfast/
 ---
 
 Last week I went to [DroidCon](http://www.droidcon.co.uk) in [London](http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=52+Upper+Street,+Islington,+London,+N1+0QH+&sll=53.800651,-4.064941&sspn=20.403926,39.506836&ie=UTF8&hq=&hnear=52+Upper+St,+London+N1+0QH,+United+Kingdom&z=16), as I had an early start and I got the venue with half an hour to spare I had breakfast at the [Breakfast Club](http://www.thebreakfastclubcafes.com/) Cafe in [Angel](http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=31+Camden+Passage+N1+8EA&sll=51.526722,-0.081689&sspn=0.004452,0.015171&ie=UTF8&hq=&hnear=31+Camden+Passage,+London+N1+8EA,+United+Kingdom&ll=51.534617,-0.104907&spn=0.004451,0.015171&z=17), unfortunately our expense system only allows 50 characters in the description field when claiming expenses which I hardly think does this experience justice (nor can I claim to be embracing the spirit of Sarbanes-Oxley) therefore I'm writing a post which I can shorten with bit.ly  then link to from our expenses system.

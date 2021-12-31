@@ -3,8 +3,8 @@ author: sammachin
 date: 2014-07-14 14:21:51+00:00
 draft: false
 title: Beating the Phone Spammers
-type: page
-url: /beating-the-phone-spammers/
+type: post
+url: /posts/beating-the-phone-spammers/
 ---
 
 

@@ -4,9 +4,7 @@ date: 2017-03-01 22:27:20+00:00
 draft: false
 title: AlexaPi - Its come a long way
 type: post
-url: /blog/alexapi-its-come-a-long-way/
-categories:
-- Blog
+url: /posts/alexapi-its-come-a-long-way/
 tags:
 - alexapi
 - github

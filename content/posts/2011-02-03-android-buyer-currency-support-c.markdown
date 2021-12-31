@@ -4,13 +4,7 @@ date: 2011-02-03 10:56:22+00:00
 draft: false
 title: Android, Buyer Currency Support C-
 type: post
-url: /blog/android-buyer-currency-support-c/
-categories:
-- Blog
-tags:
-- Android
-- billing
-- international
+url: /posts/android-buyer-currency-support-c/
 ---
 
 One of the new features announced by Google yesterday was support for "Buyer Currency" now this may come as something of a shock to iPhone users but chargeable apps in the Android Market have been billed in the developers currency since launch!

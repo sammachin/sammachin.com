@@ -4,11 +4,7 @@ date: 2009-07-01 15:31:41+00:00
 draft: false
 title: iPhone 3.0 MMS Settings
 type: post
-url: /blog/iphone-30-mms-settings/
-categories:
-- Blog
-tags:
-- iphone mms unlocked
+url: /posts/iphone-30-mms-settings/
 ---
 
 I've been experimenting with my unlocked 3.0 iPhone 3G for a week or so now and I've just got the MMS Settings sorted. see below for details and an explanation of what you need

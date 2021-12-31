@@ -4,11 +4,8 @@ date: 2007-03-23 20:46:43+00:00
 draft: false
 title: Twitter
 type: post
-url: /blog/twitter/
-tags:
-- business model
-- radar
-- Twitter
+url: /posts/twitter/
+
 ---
 
 So What is twitter? Its really hard to say as I don’t think it falls into any obviuos catagory, its a great example of a new format for information thats simple and flexlible that will push tech forward. It depends on what its gonna be used for but its kinda a hybrid of instant messaging, blogging & rss with a community angle on it too. They’ve kept it really simple asnd jsut bulit a communications system then put it out for people to use and develop.

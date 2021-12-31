@@ -4,9 +4,7 @@ date: 2014-08-13 07:53:09+00:00
 draft: false
 title: A 'real' utility
 type: post
-url: /blog/a-real-utility/
-categories:
-- Blog
+url: /posts/a-real-utility/
 ---
 
 Yesterday evening I noticed some problems with our mains supply at home, the lights were dimming for a short period of time maybe 2-3 minutes.  This wasn't a huge issue as the computers etc were all staying up and we do occasioannly get short dips in the power in our village, usually enough just to cause a reboot!

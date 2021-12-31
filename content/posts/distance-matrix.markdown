@@ -3,8 +3,8 @@ author: nav9ok
 date: 2014-07-13 21:51:29+00:00
 draft: false
 title: Distance Matrix
-type: posts
-url: /distance-matrix/
+type: post
+url: /posts/distance-matrix/
 ---
 
 A few months back there was a serious possibility that we were going to have to move house as a result of my wifes' job, she's an A&E Doctor and I won't bore you with the details but the way that medical recrutment works is its all done on regions and you get allocated/offered a job in a certain region, this will then usually consist of 'rotating' around 5-6 (or more) hospitals every 6-12 months. These hospitals are pretty spread out for example in our current Region she could end up working anywhere from Yeovil to Gloucester to Swindon. This means you either try and live somewhere central to them all and accept a long commute or move home every 6-12 months. When you get to your early 30's though you want to try and settle down and live in one place, or at least thats what we do.
@@ -16,8 +16,7 @@ This was one part that knew could be automated to be much easier, Google Maps ha
 The result is[ matrix.sammachin.com](http://matrix.sammachin.com) a little one page app running on heroku, the idea is that you build a list of locations on the left hand side, these ca be anything from postcodes to "Bristol, UK" (remember to specify the country as google will default to globally) then click around the map and it re-calculates the time & distance to each of those points from where you clicked, it was an interesting little project and got me up using the latest google maps javascript as I'd only done stuff with the very old and depreciated v1 & v2 until now.
 
 Its running on heroku so I'll leave it there, it might be useful to someone and its not costing me anything, however I can't guarantee it will always work if google changes something on the API.
+{{< figure src="/images/matrix_screenshot-1024x642.png" title="Distance Matrix" >}}
 
-[![matrix_screenshot](http://sammachin.com/wp-content/uploads/2014/07/matrix_screenshot-1024x642.png)
-](http://matrix.sammachin.com)
 
 

@@ -4,9 +4,8 @@ date: 2015-01-01 14:08:06+00:00
 draft: false
 title: Train Ticket Machines - What about the Power Users
 type: post
-url: /blog/train-ticket-machines-what-about-the-power-users/
-categories:
-- Blog
+url: /posts/train-ticket-machines-what-about-the-power-users/
+
 ---
 
 [![AdUnlnOCQAAnPLs](http://sammachin.com/wp-content/uploads/2014/12/AdUnlnOCQAAnPLs.jpg)

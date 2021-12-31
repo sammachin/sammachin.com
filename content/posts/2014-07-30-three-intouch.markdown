@@ -4,9 +4,7 @@ date: 2014-07-30 15:48:34+00:00
 draft: false
 title: Three InTouch
 type: post
-url: /blog/three-intouch/
-categories:
-- Blog
+url: /posts/three-intouch/
 ---
 
 I've been lucky enough over the past few weeks to trial Three's InTouch app, which allows you to make and receive calls and SMS on your phone over WiFi, ideal for times when you don't have coverage.

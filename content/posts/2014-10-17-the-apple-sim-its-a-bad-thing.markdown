@@ -4,9 +4,7 @@ date: 2014-10-17 09:52:06+00:00
 draft: false
 title: The Apple Sim - Its a Bad thing
 type: post
-url: /blog/the-apple-sim-its-a-bad-thing/
-categories:
-- Blog
+url: /posts/the-apple-sim-its-a-bad-thing/
 ---
 
 [![6592778831_429271de73_m](http://sammachin.com/wp-content/uploads/2014/10/6592778831_429271de73_m.jpg)

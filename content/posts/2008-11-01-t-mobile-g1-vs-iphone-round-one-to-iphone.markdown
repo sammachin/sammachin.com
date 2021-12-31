@@ -4,14 +4,7 @@ date: 2008-11-01 23:16:19+00:00
 draft: false
 title: T-Mobile G1 vs. iPhone - Round One to iPhone
 type: post
-url: /blog/t-mobile-g1-vs-iphone-round-one-to-iphone/
-categories:
-- Blog
-tags:
-- Android
-- G1
-- Marketing
-- T-Mobile
+url: /posts/t-mobile-g1-vs-iphone-round-one-to-iphone/
 ---
 
 So the G1 is out, I've had a chance to play with one in a T-Mobile store and it seems like a nice OS, however it doesn't look like an iPhone killer yet.

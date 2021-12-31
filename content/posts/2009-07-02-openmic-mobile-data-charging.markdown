@@ -4,13 +4,7 @@ date: 2009-07-02 21:25:33+00:00
 draft: false
 title: OpenMIC - Mobile Data Charging
 type: post
-url: /blog/openmic-mobile-data-charging/
-categories:
-- Blog
-tags:
-- charging
-- mobile data
-- openmic
+url: /posts/openmic-mobile-data-charging/
 ---
 
 We had a very interesting discussion at [OpenMIC](http://openmicamp.ning.com) 2 today, I put the topic up as "Lets Design the Perfect Mobile Data Charging Model" quite a daunting task but I thought it might attract attention

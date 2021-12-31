@@ -2,7 +2,7 @@
 author: sammachin
 date: 2014-07-13 14:27:25+00:00
 draft: false
-title: Hello
+title: Welcome
 type: page
 url: /
 ---

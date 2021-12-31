@@ -4,11 +4,7 @@ date: 2007-08-16 20:47:42+00:00
 draft: false
 title: My Web 2.0 Life
 type: post
-url: /blog/my-web-20-life/
-categories:
-- Blog
-tags:
-- web apps
+url: /posts/my-web-20-life/
 ---
 
 I’ve been thinking about my whole web2.0 life for a few weeks now and the multitude of different platforms out there. Some of you know me well enough to know that I’m not a fan of systems that don’t interoperate! SMS only really took off once you could text across networks and its often one of the biggest barriers to success for a service (Yes kids there was a time when you could only send texts to people on the same network - ask your parents!)

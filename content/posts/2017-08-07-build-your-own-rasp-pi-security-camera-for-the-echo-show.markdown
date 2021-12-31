@@ -4,9 +4,7 @@ date: 2017-08-07 11:58:56+00:00
 draft: false
 title: Echo Show Security Camera with a Pi
 type: post
-url: /blog/build-your-own-rasp-pi-security-camera-for-the-echo-show/
-categories:
-- Blog
+url: /posts/build-your-own-rasp-pi-security-camera-for-the-echo-show/
 ---
 
 ![](http://sammachin.com/wp-content/uploads/2017/08/FullSizeRender-2-290x300.jpg)
