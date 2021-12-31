@@ -14,7 +14,7 @@ description = "Product Manager, Hacker, Geek"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
-customCss = []
+customCss = ["css/custom.css"]
 customJs = []
 mainSections = []
 
