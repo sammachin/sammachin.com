@@ -16,7 +16,7 @@ Its currently built using [Hugo](https://gohugo.io/) and using the [Anatole](htt
 
 The site is hosted on AWS Amplify and the content lives in GitHub.
 
-If you spot a typo or want to fix something thats broken the repoisitory is [here](https://github.com/sammachin/sammachin.com) If you need to tell me something about this site the best way is to raise an issue on that repo.
+If you spot a typo or want to fix something thats broken the repository is [here](https://github.com/sammachin/sammachin.com) If you need to tell me something about this site the best way is to raise an issue on that repo.
 
 If you want to get in touch with me about something else then Twitter or LinkedIN are the best routes, I don't really interact on Facebook, if you can figure out my email address you can try that but most stuff there gets lost in the noise so I don't reccoment it.
 If its about one of my projects the please try and use the appropriate GitHiub repo and raise an issue, I might take a while to look at it but I do go through those from time to time even on the older stuff.
