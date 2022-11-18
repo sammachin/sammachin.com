@@ -40,6 +40,12 @@ icon = "fab fa-youtube"
 title = "YouTube"
 url = "https://www.youtube.com/c/SamMachin"
 
+[[params.socialIcons]]
+icon = "fab fa-mastodon"
+title = "Mastodon"
+url = "https://chaos.social/@sammachin"
+rel = "me"
+
 
 ## Menu items
 
